@@ -1,0 +1,14 @@
+backup_dir: "/home/wbat/backups/git"
+retention_count: 5
+
+sources:
+  - type: github
+    username: will-bates11
+    token: "${GITHUB_TOKEN}"
+    include_private: true
+
+  - type: gitlab
+    username: mygitlaborg
+    token: "${GITLAB_TOKEN}"
+    include_private: true
+    gitlab_url: "https://gitlab.com"
