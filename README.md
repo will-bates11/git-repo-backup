@@ -70,7 +70,7 @@ sources:
 ## Security
 
 - Store tokens securely. Use environment variables or a secrets manager.
-- Backups are plain git `--mirror` repositories—no code execution risk, but secure your storage.
+- Backups are plain git `--mirror` repositories. No code execution risk, but secure your storage.
 
 ## Troubleshooting
 
